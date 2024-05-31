@@ -23,7 +23,7 @@ def gamble():
 
     bet = int(input("Choose the bet amount: "))
     if bet not in [1, 2, 3]:
-        print("Attention all rule-breakers: Prepare to face the music! Breaking our rules means you're about to engage in a mandatory virtual dance-off with our disco-loving security bots. They've got moves that'll make your pixelated head spin! So, if you're ready to boogie your way out of here, keep breaking those rules. Otherwise, play nice or prepare to be escorted to the virtual exit by our groove-savvy bouncers. ")
+        print("Attention all rule-breaker: Prepare to face the music! Breaking our rules means you're about to engage in a mandatory virtual dance-off with our disco-loving security bots. They've got moves that'll make your pixelated head spin!,prepare to be escorted to the virtual exit by our groove-savvy bouncers. ")
         sys.exit()
 
     if bet == 1:
@@ -35,7 +35,7 @@ def gamble():
 
     choice = int(input("Guess the value on the die: "))
     if choice < 1 or choice > 6:
-        print("Attention all rule-breakers: Prepare to face the music! Breaking our rules means you're about to engage in a mandatory virtual dance-off with our disco-loving security bots. They've got moves that'll make your pixelated head spin! So, if you're ready to boogie your way out of here, keep breaking those rules. Otherwise, play nice or prepare to be escorted to the virtual exit by our groove-savvy bouncers. ")
+        print("""Attention all rule-breaker: Prepare to face the music! Breaking our rules means you're about to engage in a mandatory virtual dance-off with our disco-loving security bots. They've got moves that'll make your pixelated head spin! prepare to be escorted to the virtual exit by our groove-savvy bouncers. """)
         sys.exit()
 
     if choice == rand_value:
